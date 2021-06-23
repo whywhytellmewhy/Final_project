@@ -9,6 +9,6 @@ A1:
 A2:  
 一開始車子停止，等著接收由Xbee傳來的RPC指令，伴隨著三個答案選項，當成功接收後，車子開始動，並且接收OpenMV傳來的算式並儲存起來，同時使用ping偵測車子與前方障礙物的距離。當距離小於ping的30單位時，車子轉向並繞過障礙物，回到原直線方向，並且前進到OpenMV偵測到的AprilTag的ID值所對應到的答案選項的值與算式所計算出來的值相同時，車子即停止。 
   
-以下為成功完成任務的過程影片連結：
+以下為成功完成任務的過程之影片連結：
 1. https://www.youtube.com/watch?v=RVI7jdQjx7k
 2. https://www.youtube.com/watch?v=Xe2ipEL5ezQ
